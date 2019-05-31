@@ -1,0 +1,51 @@
+/* h1{ 
+    border:1px solid black;
+}
+span{
+    border:1px dotted red;
+}
+.textbox{
+    border-radius: 5px;
+    border:1px solid blue;
+}
+#textSpan{
+    display: block;
+    background: red;
+}
+*/
+footer{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.logo{
+    width: 174px;
+    height: 191px;
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 6px 6px 8px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    background: white;
+}
+.navigation li:hover{
+    background-color: #7f7f7f;
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+}
+.navigation li a:hover{
+    color: white;
+}
+.nombre{
+    width: 446px;
+    height: 30px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
