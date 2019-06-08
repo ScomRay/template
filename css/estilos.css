@@ -13,11 +13,33 @@ span{
     background: red;
 }
 */
+@font-face{
+    font-family: RugeBoogie;
+    src: url(../fonts/RugeBoogie-Regular.ttf);
+}
+.font-text{
+    font-family: RugeBoogie;
+}
+    .animate{
+transition: all 400ms ease-in-out;
+width: 40px;
+height: 40px;
+background-color: #1e90ff;
+text-align: center;
+vertical-align: center;
+line-height: 2.5em;
+transition: all 400ms ease-in-out;
+    }
+    .animate-hover{
+transform: scale(1.5);
+opacity: 0.5;
+    }
 footer{
     text-align: center;
 }
 .content{
     text-align: center;
+    transform: translateY(70%);
 }
 .logo{
     width: 174px;
@@ -26,10 +48,12 @@ footer{
 .navigation li{
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 5px 10px;
     box-shadow: 6px 6px 8px rgba(0,0,0,0.5);
     border-radius: 20px;
     background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
 }
 .navigation li:hover{
     background-color: #7f7f7f;
@@ -48,4 +72,19 @@ footer{
 img{
     display: block;
     margin: 0 auto;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    position: relative;
+    min-width: 960px;
+    transform: translateY(300px);
+}
+#portfolio, #aboutme{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+#shop{
+    width: 960px;
+    min-height: 1168px;
 }

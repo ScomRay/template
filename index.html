@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Práctica Sesión 2</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/ico">
     <!-- Linkear archivos de estilos -->
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Esto es mejor en un archivo css aparte -->
     <!-- <style> 
     span{
@@ -39,29 +41,34 @@
     <input type="button" value="Save">
     <button>Guardar</button> -->
     <div class="content">
-    <img src="images/logoPQ.png" alt="Logo" class="Logo">
-    <img src="images/nombrePQ.png" alt="nombre" class="Nombre">
-    <h1>Hello Ray!</h1>
+    <img src="images/logoPQ.png" alt="Logo" class="logo">
+    <!-- <img src="images/nombrePQ.png" alt="nombre" class="nombre"> -->
+    <h1 class="font-text">priscila quijada</h1>
+    <i class="fab fa-facebook-f animate"></i>
+    <i class="fab fa-twitter animate"></i>
+    <i class="fab fa-instagram animate"></i>
     <ul class="navigation">
         <!-- li*5 y (li>a)*5 -->
       <li><a href="#">Home
           </a></li>
-      <li><a href="#" id='aboutme'>About me
-            <select name='About me' id='aboutme'> 
-                <option value="1">Hire me</option>
-                <option value="2">Academic information</option>
+      <li><a href="#" id='aboutme'>
+            <select name='About me' id='aboutme'>
+                <option value="0">About me</option>
+                    <option value="1">Hire me</option>
+                    <option value="2">Academic information</option>
             </select>
       </a></li>
-      <li><a href="#">Portfolio
-          <!-- <select name="Portfolio" id="portfolio"> 
+      <li><a href="#">
+          <select name="Portfolio" id="portfolio"> 
+              <option value="0">Portfolio</option>
               <option value="1">Greeting Cards</option>
               <option value="2">Invitations</option>
               <option value="3">Calendars</option>
               <option value="4">Planners</option>
               <option value="5">Packaging/Logo</option>
-          </select>-->
+          </select>
       </a></li>
-      <li><a href="#">Shop</a></li>
+      <li><a href="./shop.html">Shop</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
     </div>
